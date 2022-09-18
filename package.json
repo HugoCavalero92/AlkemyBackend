@@ -1,0 +1,39 @@
+{
+  "name": "alkemybackend",
+  "version": "1.0.0",
+  "description": "CHALLENGE BACKEND - NodeJs",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "Hugo Cavalero",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "express-fileupload": "^1.4.0",
+    "express-validator": "^6.14.2",
+    "helmet": "^6.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.3",
+    "nodemailer": "^6.7.8",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.0",
+    "sequelize": "^6.21.4",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "mocha": "^10.0.0",
+    "nodemon": "^2.0.19",
+    "supertest": "^6.2.4"
+  }
+}
